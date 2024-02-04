@@ -15,7 +15,6 @@ export default function RootLayout({ children }) {
         <nav>hi</nav>
         {children}
       </body>
-      <footer>bye</footer>
     </html>
   );
 }
