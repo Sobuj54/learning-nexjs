@@ -1,7 +1,9 @@
+import NavBar from "@/components/NavBar";
+
 const layout = ({ children }) => {
   return (
     <div>
-      <nav>route grouping</nav>
+      <NavBar />
       {children}
     </div>
   );
